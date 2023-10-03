@@ -1,0 +1,42 @@
+{
+  "name": "currency-now",
+  "version": "1.0.0",
+  "description": "Gives all currencies is Syrian pound",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "start:dev": "nodemon",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sami-AlEsh/currency-now.git"
+  },
+  "author": "Sami-Alesh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sami-AlEsh/currency-now/issues"
+  },
+  "homepage": "https://github.com/Sami-AlEsh/currency-now#readme",
+  "dependencies": {
+    "@types/cheerio": "^0.22.32",
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "lodash": "^4.17.21",
+    "node-html-parser": "^6.1.10",
+    "node-telegram-bot-api": "^0.63.0",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.1.6",
+    "typeorm": "^0.3.17"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/lodash": "^4.14.199",
+    "@types/node": "^20.8.2",
+    "@types/node-telegram-bot-api": "^0.61.8",
+    "nodemon": "^3.0.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  }
+}
